@@ -5,8 +5,36 @@ const useStyles = makeStyles({
   root: {}
 });
 
-function Product({ data, num }) {
+const phizyme = {
+  name: 'pHi-Zymes',
+  website:
+    'https://baselinenutritionals.net/collections/frontpage/products/phi-zymes%C2%AE-450-capsules',
+  youtube: 'https://www.youtube.com/watch?v=dgJGmCmh9uI&feature=youtu.be',
+  benefits: [
+    'Have been used since early 1900s as natural protocol to heal cancer',
+    'Mode of action breaks down fibrin coatings of cancer cells',
+    'May allow lower doses of chemotherapy thereby reducing side-effects incurred',
+    'Reduces Circulating Immune Complexes that can lead to allergies and systemic inflammation.',
+    'Nutritionally enhances the quality of blood.',
+    'Helps with factors that can cause autoimmune disorders.',
+    'Helps clean out and repair the cardiovascular system',
+    'Helps minimize the risk of blood clots',
+    'Helps reduce scar tissue',
+    'Digest fibroid cysts'
+  ],
+  references: [
+    'https://thetruthaboutcancer.com/systemic-proteolytic-enzymes/',
+    'https://articles.mercola.com/sites/articles/archive/2018/03/05/proteolytic-enzymes-benefits.aspx',
+    'https://draxe.com/nutrition/proteolytic-enzymes/',
+    'https://www.jonbarron.org/article/proteolytic-enzyme-formula',
+    'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4188883/'
+  ]
+};
+
+function Product({ num }) {
   const classes = useStyles();
+  const data = phizyme;
+
   return (
     <div className={classes.root}>
       <h2>{data.name}</h2>
