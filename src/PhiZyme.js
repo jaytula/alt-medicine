@@ -17,7 +17,7 @@ function Product({ data, num }) {
         Youtube video on benefits of systemic enzymes:{' '}
         <a href={data.youtube}>Video</a>
       </p>
-      <h4>Benefits</h4>
+      <h4>Proteolytic Enzyme Benefits</h4>
       {data.benefits.map((b, i) => (
         <p key={i}>
           {i + 1}. {b}
