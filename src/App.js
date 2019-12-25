@@ -43,7 +43,9 @@ function App() {
             The following instructions daily dose information per{' '}
             <a href="#ref-1">Reference 1</a>:
           </p>
-          <h2>Cancer Prevention Dosage</h2>
+
+          <h2>Dosage Info</h2>
+          <h3>Cancer Prevention Dosage</h3>
 
           <p>
             Morning on an empty stomach (at least 45 mins away from food), Take
@@ -54,7 +56,7 @@ function App() {
             food). Take 5g orally (10 capsules) of proteolytic enzymes.
           </p>
 
-          <h2>Cancer Patients Dosage</h2>
+          <h3>Cancer Patients Dosage</h3>
 
           <p>
             Morning on an empty stomach (at least 45 mins away from food), Take
