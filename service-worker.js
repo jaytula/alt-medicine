@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/alt-medicine/precache-manifest.53f05a1b256e200f47737600140e6d32.js"
+  "/alt-medicine/precache-manifest.b45896bd71a48459a71a4e60d27c77c4.js"
 );
 
 self.addEventListener('message', (event) => {
