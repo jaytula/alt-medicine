@@ -39,19 +39,31 @@ function App() {
       <div className={classes.container}>
         <main className={classes.content}>
           <h1>Enzyme Therapy Information</h1>
-          <h2>Proposed Treatment</h2>
           <p>
-            The following instructions is preventive dose treatment per{' '}
+            The following instructions daily dose information per{' '}
             <i>Reference 1</i>:
           </p>
+          <h2>Cancer Prevention Dosage</h2>
+
           <p>
             Morning on an empty stomach (at least 45 mins away from food), Take
-            5g orally (10 capsules, 3.33 servings) of proteolytic enzymes.
+            5g orally (10 capsules) of proteolytic enzymes.
           </p>
           <p>
             Before bedtime on an empty stomach (at least 45 mins away from
-            food). Take 5g orally (10 capsules, 3.33 servings) of proteolytic
-            enzymes.
+            food). Take 5g orally (10 capsules) of proteolytic enzymes.
+          </p>
+
+          <h2>Cancer Patients Dosage</h2>
+
+          <p>
+            Morning on an empty stomach (at least 45 mins away from food), Take
+            15g orally (30 capsules) of proteolytic enzymes.
+          </p>
+          <p>Three hours later 10g orally (20 capsules).</p>
+          <p>
+            Before bedtime on an empty stomach (at least 45 mins away from
+            food), take 15g orally (30 capsules).
           </p>
 
           <PhiZyme />

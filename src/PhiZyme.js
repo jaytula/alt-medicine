@@ -6,7 +6,7 @@ const useStyles = makeStyles({
 });
 
 const phizyme = {
-  name: 'pHi-Zymes',
+  name: 'pHi-Zymes (proteolytic enzyme supplement)',
   website:
     'https://baselinenutritionals.net/collections/frontpage/products/phi-zymes%C2%AE-450-capsules',
   youtube: 'https://www.youtube.com/watch?v=dgJGmCmh9uI&feature=youtu.be',
