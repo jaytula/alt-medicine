@@ -41,7 +41,7 @@ function App() {
           <h1>Enzyme Therapy Information</h1>
           <p>
             The following instructions daily dose information per{' '}
-            <i>Reference 1</i>:
+            <a href="#ref-1">Reference 1</a>:
           </p>
           <h2>Cancer Prevention Dosage</h2>
 

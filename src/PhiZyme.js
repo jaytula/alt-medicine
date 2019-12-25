@@ -55,7 +55,7 @@ function Product({ num }) {
       <h4>References</h4>
       <ol>
         {data.references.map((r, i) => (
-          <li key={i} num={i}>
+          <li id={`ref-${i + 1}`} key={i} num={i}>
             <a href={r}>{r}</a>
           </li>
         ))}
