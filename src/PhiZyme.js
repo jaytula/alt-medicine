@@ -53,11 +53,13 @@ function Product({ num }) {
       ))}
 
       <h4>References</h4>
-      {data.references.map((r, i) => (
-        <p key={i} num={i}>
-          <a href={r}>{r}</a>
-        </p>
-      ))}
+      <ol>
+        {data.references.map((r, i) => (
+          <li key={i} num={i}>
+            <a href={r}>{r}</a>
+          </li>
+        ))}
+      </ol>
     </div>
   );
 }
