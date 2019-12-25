@@ -66,6 +66,13 @@ function App() {
             food), take 15g orally (30 capsules).
           </p>
 
+          <h2>Risks</h2>
+
+          <p>
+            Die-off of cancer cells too fast can overwhelm body's ability to
+            eliminate them. Coffee enemas have been suggested as the most
+            effective way to deal the elimination of dead cancer cells.
+          </p>
           <PhiZyme />
         </main>
       </div>
