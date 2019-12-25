@@ -27,7 +27,8 @@ const phizyme = {
     'https://articles.mercola.com/sites/articles/archive/2018/03/05/proteolytic-enzymes-benefits.aspx',
     'https://draxe.com/nutrition/proteolytic-enzymes/',
     'https://www.jonbarron.org/article/proteolytic-enzyme-formula',
-    'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4188883/'
+    'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4188883/',
+    'https://www.youtube.com/watch?v=33-fWuor0eo'
   ]
 };
 
