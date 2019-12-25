@@ -28,7 +28,8 @@ const phizyme = {
     'https://draxe.com/nutrition/proteolytic-enzymes/',
     'https://www.jonbarron.org/article/proteolytic-enzyme-formula',
     'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4188883/',
-    'https://www.youtube.com/watch?v=33-fWuor0eo'
+    'https://www.youtube.com/watch?v=33-fWuor0eo',
+    'https://www.youtube.com/watch?v=XIzmlv1hMLw'
   ]
 };
 
