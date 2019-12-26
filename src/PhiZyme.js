@@ -9,7 +9,7 @@ const useStyles = makeStyles({
   },
   reference: {
     display: 'grid',
-    gridTemplateColumns: '1fr 8fr 8fr',
+    gridTemplateColumns: '1fr 8fr 6fr',
     gridColumnGap: '8px',
     margin: '8px',
     alignItems: 'center'
