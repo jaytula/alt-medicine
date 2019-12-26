@@ -2,6 +2,7 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 
 import PhiZyme from './PhiZyme';
+import Dosages from './Dosages';
 
 const useStyles = makeStyles({
   root: {
@@ -43,37 +44,14 @@ function App() {
             The following instructions daily dose information per{' '}
             <a href="#ref-1">Reference 1</a>:
           </p>
-
           <h2>Dosage Info</h2>
-          <h3>Cancer Prevention Dosage</h3>
-
-          <p>
-            Morning on an empty stomach (at least 45 mins away from food), Take
-            5g orally (10 capsules) of proteolytic enzymes.
-          </p>
-          <p>
-            Before bedtime on an empty stomach (at least 45 mins away from
-            food). Take 5g orally (10 capsules) of proteolytic enzymes.
-          </p>
-
-          <h3>Cancer Patients Dosage</h3>
-
-          <p>
-            Morning on an empty stomach (at least 45 mins away from food), Take
-            15g orally (30 capsules) of proteolytic enzymes.
-          </p>
-          <p>Three hours later 10g orally (20 capsules).</p>
-          <p>
-            Before bedtime on an empty stomach (at least 45 mins away from
-            food), take 15g orally (30 capsules).
-          </p>
-
+          <Dosages />
           <h2>Risks</h2>
-
           <p>
             Die-off of cancer cells too fast can overwhelm body's ability to
-            eliminate them. Coffee enemas have been suggested as the most
-            effective way to deal the elimination of dead cancer cells.
+            eliminate them thereby resulting in a worsening of symptoms
+            (Herxheimer Reaction). Coffee enemas have been suggested as the most
+            effective way to detox out dead cancer cells and toxins.
           </p>
           <PhiZyme />
         </main>
