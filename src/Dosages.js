@@ -27,7 +27,9 @@ function Dosages() {
   const classes = useStyles();
   return (
     <div>
-      <p>Take on an empty stomatch at least 45 minutes from food.</p>
+      <p>
+        Take on an empty stomatch at least 45 minutes or more away from food.
+      </p>
       {dosages.map(dosage => (
         <div className={classes.root}>
           <h3>{dosage.name} Dosage</h3>
