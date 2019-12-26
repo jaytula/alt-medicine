@@ -2,7 +2,11 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles({
-  root: {}
+  root: {
+    '& li': {
+      padding: '4px 0'
+    }
+  }
 });
 
 const phizyme = {
@@ -48,11 +52,11 @@ function Product({ num }) {
         <a href={data.youtube}>Video</a>
       </p>
       <h4>Proteolytic Enzyme Benefits</h4>
-      {data.benefits.map((b, i) => (
-        <p key={i}>
-          {i + 1}. {b}
-        </p>
-      ))}
+      <ol>
+        {data.benefits.map((b, i) => (
+          <li key={i}>{b}</li>
+        ))}
+      </ol>
 
       <h4>References</h4>
       <ol>
