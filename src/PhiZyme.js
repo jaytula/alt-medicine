@@ -6,6 +6,15 @@ const useStyles = makeStyles({
     '& li': {
       padding: '4px 0'
     }
+  },
+  reference: {
+    display: 'grid',
+    gridTemplateColumns: '1fr 1fr',
+    gridColumnGap: '8px',
+    margin: '8px'
+  },
+  gridHeader: {
+    fontWeight: 'bold'
   }
 });
 
@@ -27,13 +36,49 @@ const phizyme = {
     'Digest fibroid cysts'
   ],
   references: [
-    'https://thetruthaboutcancer.com/systemic-proteolytic-enzymes/',
-    'https://articles.mercola.com/sites/articles/archive/2018/03/05/proteolytic-enzymes-benefits.aspx',
-    'https://draxe.com/nutrition/proteolytic-enzymes/',
-    'https://www.jonbarron.org/article/proteolytic-enzyme-formula',
-    'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4188883/',
-    'https://www.youtube.com/watch?v=33-fWuor0eo',
-    'https://www.youtube.com/watch?v=XIzmlv1hMLw'
+    {
+      title: 'How Systemic Proteolytic Enzymes Fight Cancer - Dr Jockers',
+      link: 'https://thetruthaboutcancer.com/systemic-proteolytic-enzymes/'
+    },
+    {
+      title: 'The Many Health Benefits of Proteolytic Enzymes - Dr Mercola',
+      link:
+        'https://articles.mercola.com/sites/articles/archive/2018/03/05/proteolytic-enzymes-benefits.aspx'
+    },
+    {
+      title:
+        'Proteolytic Enzymes Reduce Inflammation and Boost Immunity - Jillian Levy, CHHC',
+      link: 'https://draxe.com/nutrition/proteolytic-enzymes/'
+    },
+    {
+      title: 'The Best Proteolytic Enzymes Formula - Jon Barron',
+      link: 'https://www.jonbarron.org/article/proteolytic-enzyme-formula'
+    },
+    {
+      title:
+        'Impact of proteolytic enzymes in colorectal cancer development and progression',
+      link: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4188883/'
+    },
+    {
+      title:
+        'Using Enzymes as a Cancer Treatment - Dr Nicolas Gonzalez [YouTube]',
+      link: 'https://www.youtube.com/watch?v=33-fWuor0eo'
+    },
+    {
+      title:
+        "Enzyme Therapy For Cancer, Beard's Discovery Trophoblast/Cancer cells similarity [YouTube]",
+      link: 'https://www.youtube.com/watch?v=XIzmlv1hMLw'
+    },
+    {
+      title:
+        "Systemic Proteolytic Enzymes--What works, What Doesn't and Why - Jon Barron [YouTube]",
+      link: 'https://www.youtube.com/watch?v=dgJGmCmh9uI'
+    },
+    {
+      title: 'pHi-Zymes® 450 Capsules Product Page',
+      link:
+        'https://baselinenutritionals.net/collections/frontpage/products/phi-zymes%C2%AE-450-capsules'
+    }
   ]
 };
 
@@ -45,11 +90,10 @@ function Product({ num }) {
     <div className={classes.root}>
       <h2>{data.name}</h2>
       <p>
-        Product website is: <a href={data.website}>{data.website}</a>
-      </p>
-      <p>
-        Youtube video on benefits of systemic enzymes:{' '}
-        <a href={data.youtube}>Video</a>
+        The rationale for using proteolytic enzymes to treat cancer is these
+        enzymes break down the fibrin (protective wall) of cancer cells thereby
+        allowing the immune system to recognize a better eliminate the
+        malfunctioning cancer cell.
       </p>
       <h4>Proteolytic Enzyme Benefits</h4>
       <ol>
@@ -59,13 +103,18 @@ function Product({ num }) {
       </ol>
 
       <h4>References</h4>
-      <ol>
-        {data.references.map((r, i) => (
-          <li id={`ref-${i + 1}`} key={i} num={i}>
-            <a href={r}>{r}</a>
-          </li>
-        ))}
-      </ol>
+      <div className={`${classes.gridHeader} ${classes.reference}`}>
+        <div>Title</div>
+        <div>Link</div>
+      </div>
+      {data.references.map((r, i) => (
+        <div id={`ref-${i + 1}`} key={i} num={i} className={classes.reference}>
+          <div>{r.title}</div>
+          <div>
+            <a href={r.link}>{r.link}</a>
+          </div>
+        </div>
+      ))}
     </div>
   );
 }
