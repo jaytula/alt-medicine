@@ -103,7 +103,7 @@ function Product({ num }) {
         ))}
       </ol>
 
-      <h4>References</h4>
+      <h4 id="references">References</h4>
       <div className={`${classes.gridHeader} ${classes.reference}`}>
         <div>#</div>
 

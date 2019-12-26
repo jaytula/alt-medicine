@@ -40,11 +40,18 @@ function App() {
       <div className={classes.container}>
         <main className={classes.content}>
           <h1>Enzyme Therapy Information</h1>
+          <h2>Summary</h2>
           <p>
-            The following instructions daily dose information per{' '}
-            <a href="#ref-1">Reference 1</a>:
+            The information is gathered from multiple sources listed under the{' '}
+            <a href="#references">References</a> section. The goal of this page
+            is to summarize the benefits and provide a clear action plan on how
+            to use proteolytic enzymes to fight cancer.
           </p>
           <h2>Dosage Info</h2>
+          <p>
+            The following instructions daily dose information per{' '}
+            <a href="#ref-1">Reference #1</a>.
+          </p>
           <Dosages />
           <h2>Risks</h2>
           <p>
