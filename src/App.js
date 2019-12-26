@@ -49,8 +49,8 @@ function App() {
           </p>
           <h2>Dosage Info</h2>
           <p>
-            The following instructions daily dose information per{' '}
-            <a href="#ref-1">Reference #1</a>.
+            The following instructions daily dose information using pHi-Zymes
+            per <a href="#ref-1">Reference #1</a> as a guide.
           </p>
           <Dosages />
           <h2>Risks</h2>
