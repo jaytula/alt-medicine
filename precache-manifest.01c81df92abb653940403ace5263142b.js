@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4f86e1d062f14bec2431c163636d6f79",
+    "revision": "3a00542f1fdcb8f86796fef9133d9a45",
     "url": "/alt-medicine/index.html"
   },
   {
-    "revision": "c1afc5434c818e350d31",
+    "revision": "1c4910b7a278b01446a0",
     "url": "/alt-medicine/static/css/main.5ecd60fb.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/alt-medicine/static/js/2.5180797c.chunk.js.LICENSE"
   },
   {
-    "revision": "c1afc5434c818e350d31",
-    "url": "/alt-medicine/static/js/main.a11f2be4.chunk.js"
+    "revision": "1c4910b7a278b01446a0",
+    "url": "/alt-medicine/static/js/main.d886dd08.chunk.js"
   },
   {
     "revision": "e246ca9b950592bdda55",
