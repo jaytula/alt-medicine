@@ -9,9 +9,10 @@ const useStyles = makeStyles({
   },
   reference: {
     display: 'grid',
-    gridTemplateColumns: '1fr 1fr',
+    gridTemplateColumns: '1fr 8fr 8fr',
     gridColumnGap: '8px',
-    margin: '8px'
+    margin: '8px',
+    alignItems: 'center'
   },
   gridHeader: {
     fontWeight: 'bold'
@@ -104,11 +105,15 @@ function Product({ num }) {
 
       <h4>References</h4>
       <div className={`${classes.gridHeader} ${classes.reference}`}>
+        <div>#</div>
+
         <div>Title</div>
         <div>Link</div>
       </div>
       {data.references.map((r, i) => (
         <div id={`ref-${i + 1}`} key={i} num={i} className={classes.reference}>
+          <div>{i + 1}.</div>
+
           <div>{r.title}</div>
           <div>
             <a href={r.link}>{r.link}</a>
