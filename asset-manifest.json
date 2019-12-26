@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/alt-medicine/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/alt-medicine/static/js/main.973ad3ec.chunk.js",
-    "main.js.map": "/alt-medicine/static/js/main.973ad3ec.chunk.js.map",
+    "main.js": "/alt-medicine/static/js/main.fd3fd0ba.chunk.js",
+    "main.js.map": "/alt-medicine/static/js/main.fd3fd0ba.chunk.js.map",
     "runtime-main.js": "/alt-medicine/static/js/runtime-main.2844b414.js",
     "runtime-main.js.map": "/alt-medicine/static/js/runtime-main.2844b414.js.map",
     "static/js/2.5180797c.chunk.js": "/alt-medicine/static/js/2.5180797c.chunk.js",
     "static/js/2.5180797c.chunk.js.map": "/alt-medicine/static/js/2.5180797c.chunk.js.map",
     "index.html": "/alt-medicine/index.html",
-    "precache-manifest.1c1979fea5bd90980a127df1ac2fb85f.js": "/alt-medicine/precache-manifest.1c1979fea5bd90980a127df1ac2fb85f.js",
+    "precache-manifest.bb0bf778527ffa19c86e56c759f19235.js": "/alt-medicine/precache-manifest.bb0bf778527ffa19c86e56c759f19235.js",
     "service-worker.js": "/alt-medicine/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/alt-medicine/static/css/main.5ecd60fb.chunk.css.map",
     "static/js/2.5180797c.chunk.js.LICENSE": "/alt-medicine/static/js/2.5180797c.chunk.js.LICENSE"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.2844b414.js",
     "static/js/2.5180797c.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.973ad3ec.chunk.js"
+    "static/js/main.fd3fd0ba.chunk.js"
   ]
 }
