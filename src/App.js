@@ -57,8 +57,9 @@ function App() {
           <p>
             Die-off of cancer cells too fast can overwhelm body's ability to
             eliminate them thereby resulting in a worsening of symptoms
-            (Herxheimer Reaction). Coffee enemas have been suggested as the most
-            effective way to detox out dead cancer cells and toxins.
+            (Herxheimer Reaction). Coffee enemas have been suggested (
+            <a href="#ref-6">Reference 6</a>) as the most effective way to detox
+            out dead cancer cells and toxins.
           </p>
           <PhiZyme />
         </main>
